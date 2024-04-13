@@ -1,0 +1,95 @@
+/*PARTE DE CIMA - HEADER*/
+
+header{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:lavender;
+
+    margin: 20px;
+    border-radius: 100px;
+
+    display: flex; /* Torna o header um contêiner flexível */
+    flex-direction: column; /* Coloca os elementos em uma coluna */
+    align-items: center; /* Centraliza os elementos verticalmente */
+
+    position: relative; /* em um elemento pai, você pode controlar o posicionamento dos elementos filhos absolutos, 
+    permitindo que você os posicione de forma mais precisa em relação ao elemento pai.*/
+
+   
+   }
+
+.titulo{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+    .curriculo, .fotos {
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        display: inline-block;
+        text-align: center;
+        margin:  auto;
+        border: 30px;
+        border-radius: 20px;
+        background-color: rgb(131, 111, 202);
+        padding: 20px;
+        
+    }
+
+.curriculo:hover, .fotos:hover{
+        font-size: 25px;
+        }
+
+/*UM POUCO MAIS SOBRE MIM */
+
+h2{
+    background-color:mediumslateblue;
+    border-radius: 50px;
+    text-align: center;
+    }
+
+/* PEQUENA FRASE*/
+
+h4{
+    text-align: center;
+    }
+
+/*HOBBIES*/
+div{
+    display: block;
+    margin: 20px;
+    border-radius: 70px;
+    background-color:lavender;
+    position: relative; 
+    }
+
+img{
+    display: block;
+    margin: 40px auto 20px auto;
+    border-radius: 70px;
+    outline: dashed mediumslateblue;
+    }
+
+figcaption{
+    text-align: center ;
+}
+
+figcaption::first-line{color:blueviolet;}
+figcaption::first-letter{font-size: xx-large;}
+
+
+
+
+
+/*MINHAS CARACTERISTICAS*/
+ol:hover{
+    color: blueviolet;
+    font-size: larger;
+    }
+
+    
+
+
+
+
